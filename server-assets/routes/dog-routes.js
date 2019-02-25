@@ -37,3 +37,5 @@ router.delete('/:id', (req, res, next) => {
     return res.status(200).send('Dog Deleted')
   } res.status(400).send('No dog at that ID')
 })
+
+module.exports = router
